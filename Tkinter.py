@@ -3,7 +3,6 @@ import requests,webbrowser
 from bs4 import BeautifulSoup
 from tkinter import *
 struct=Tk()
-struct.wm_iconbitmap('if-tech.jfif')
 struct.geometry("354x350")
 struct.title("My Search Engine: IF-TECH")
 label=Label(struct,text="Personal Search Engine",bg="teal",fg="white",font=("Times",20,"bold"))
